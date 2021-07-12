@@ -33,7 +33,7 @@
 								<t:Column>
 								<Text text="Smoker"/>
 								<t:template>
-									<CheckBox selected="{vmax>Smoker}"/>
+									<CheckBox enabled="false" selected="{vmax>Smoker}"/>
 								</t:template>
 							</t:Column>
 								<t:Column>
