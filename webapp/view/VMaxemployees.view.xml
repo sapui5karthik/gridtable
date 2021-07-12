@@ -27,7 +27,7 @@
 								<t:Column>
 								<Text text="Gender"/>
 								<t:template>
-									<Text text="{vmax>Gender}"/>
+									<Image src="{vmax>Gender}" width="20px" height="20px"/>
 								</t:template>
 							</t:Column>
 								<t:Column>
