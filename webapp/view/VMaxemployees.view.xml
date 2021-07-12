@@ -1,0 +1,57 @@
+<mvc:View controllerName="zsapui5proj04gridtableZSAPUI5_Proj04_GridTable.controller.VMaxemployees" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:t="sap.ui.table">
+	<App>
+		<pages>
+			<Page title="EMPLOYEE TABLE USING GRID TABLE">
+				<content>
+					<t:Table id="table1" rows="{vmax>/emp}">
+						<t:columns>
+							<t:Column>
+								<Text text="EMPID"/>
+								<t:template>
+									<Text text="{vmax>EMPID}"/>
+								</t:template>
+							</t:Column>
+							<t:Column>
+								<Text text="EMPNAME"/>
+								<t:template>
+									<Text text="{vmax>EMPNAME}"/>
+								</t:template>
+							</t:Column>
+								<t:Column>
+								<Text text="EMPDES"/>
+								<t:template>
+									<Text text="{vmax>EMPDES}"/>
+								</t:template>
+							</t:Column>
+								<t:Column>
+								<Text text="Gender"/>
+								<t:template>
+									<Text text="{vmax>Gender}"/>
+								</t:template>
+							</t:Column>
+								<t:Column>
+								<Text text="Smoker"/>
+								<t:template>
+									<Text text="{vmax>Smoker}"/>
+								</t:template>
+							</t:Column>
+								<t:Column>
+								<Text text="MaritalStatus"/>
+								<t:template>
+									<Text text="{vmax>MaritalStatus}"/>
+								</t:template>
+							</t:Column>
+								<t:Column>
+								<Text text="Rating"/>
+								<t:template>
+									<Text text="{vmax>Rating}"/>
+								</t:template>
+							</t:Column>
+						</t:columns>
+					</t:Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
